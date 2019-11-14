@@ -15,7 +15,6 @@ public class PalTrackerApplication {
         return new JdbcTimeEntryRepository(dataSource);
     }
 
-
     public static void main(String[] args) {
         SpringApplication.run(PalTrackerApplication.class, args);
     }
